@@ -1,0 +1,27 @@
+# Local Python environment
+tealab/
+.venv/
+venv/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Runtime output
+logs/
+*.log
+
+# Preserved legacy datasets and local backups
+data/legacy/
+data/inventory/legacy/
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
